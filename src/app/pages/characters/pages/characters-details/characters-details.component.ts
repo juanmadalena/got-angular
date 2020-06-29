@@ -32,6 +32,8 @@ export class CharactersDetailsComponent implements OnInit {
       this.houseName = character;
       this.houseName = this.houseName.house;
 
+      //Añadiendo algunas fotos que no aparencen(aunque deberian) en la API
+
       this.gotService.getAllHouses().subscribe((res: any) => {
         res.forEach((elemento) => {
           if (elemento.name === this.houseName) {
