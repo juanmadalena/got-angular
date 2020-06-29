@@ -29,7 +29,7 @@ body{
 }
 
 .ui-orderlist-list{
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 82vh;
     display: flex;
     flex-direction: row;
